@@ -1,10 +1,17 @@
 # myskills
 
-## idea-to-kickstarter
-- A generic, adversarial product-design workflow that transforms a raw idea into a validated, implementation-ready package: brainstorm → grill assumptions → define boundaries → design architecture → compare and synthesize → create roadmap, UI/UX, testing, security, and coding-agent rules → final consistency audit.
-The most important distinction, Think of it this way:
+Reusable skills for structured software and product engineering workflows.
 
-```
+## Skills
+
+### idea-to-kickstarter
+A generic, adversarial product-design workflow that transforms a raw idea into a validated, implementation-ready package:
+
+**brainstorm → challenge assumptions → define boundaries → design architecture → compare and synthesize → roadmap → UI/UX → testing → security → coding-agent rules → consistency audit**
+
+The separation is intentional:
+
+```text
 SKILL
     = HOW TO THINK / WORK
 
@@ -27,4 +34,11 @@ AGENT RULES
     = WHAT THE CODING AGENT MUST NEVER VIOLATE
 ```
 
-That separation makes the system reusable across completely unrelated projects.
+### readme-polisher
+A repository-aware workflow for producing accurate, concise, senior-engineer-quality READMEs. It inspects implementation evidence before making claims and emphasizes architecture, boundaries, trade-offs, reliability, security, testing, reproducibility, and project maturity.
+
+See [`readme-polisher/SKILL.md`](readme-polisher/SKILL.md).
+
+## Design principle
+
+Skills define **reusable ways of working**. They should be applicable across unrelated repositories without silently inventing project-specific facts.
