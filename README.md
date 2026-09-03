@@ -19,6 +19,11 @@ A repository-aware workflow for creating meaningful software and portfolio versi
 
 See [`versioning/SKILL.md`](versioning/SKILL.md).
 
+### github-repo-governance
+A repository-aware workflow for turning GitHub into an enforceable engineering control plane. It audits CI, branch protection, required checks, regression tiers, release traceability, and agent-driven development workflows, with explicit evidence-based verification.
+
+See [`github-repo-governance/SKILL.md`](github-repo-governance/SKILL.md).
+
 ## Design principle
 
 Skills define **reusable ways of working**. They should be applicable across unrelated repositories without silently inventing project-specific facts.
